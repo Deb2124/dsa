@@ -22,3 +22,9 @@ Third pass: compare 3 and 4 (no swap), 4 and 2 (swap), 4 and 5 (no swap), 5 and 
 Fourth pass: compare 3 and 2 (swap), 3 and 4 (no swap), 4 and 5 (no swap), 5 and 8 (no swap)
     Result after fourth pass: 2, 3, 4, 5, 8
 Since no more swaps are needed, the books are now sorted!
+
+
+Complexity Analysis:
+
+-Time Complexity O(N^2) : Bubble sort makes n(n-1)/2 comparisons leading it to consume a lot of time.
+-Space Complexity O(1) : Sorting using Bubble Sort doesnot require any additional space.
